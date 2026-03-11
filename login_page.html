@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in -Smartr Electronics </title>
+    <link rel="stylesheet" href="login_page.css">
+    <link rel="icon" type="image/png" href="logo.jpg">
+    
+</head>
+<body>
+    <div class="Top"> 
+            <h1>PAKISTAN'S HOME APPLIANCES RETAIL CHAIN</h1>
+  </div>
+<!-- <header class="header">
+<div class="nav">
+  
+
+<div class="logo">
+<img src="logo.jpg" alt="Smart Electronics Logo">Smart Electronics
+</div>
+
+<ul class="menu">
+<li><a href="#">Home</a></li>
+<li><a href="#">Our Showrooms</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Our Leadership</a></li>
+<li><a href="#">Our Top Suppliers</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">Join Us</a></li>
+<li><a href="#">News & Events</a></li>
+<li><a href="#">Blogs</a></li>
+</ul>
+
+<div class="nav-right">
+
+<input type="text" placeholder="Search products">
+
+
+<div class="icon-box">
+<span class="icon">🛒</span>
+<span class="icon-text">Cart</span>
+</div>
+
+<div class="icon-box">
+<span class="icon">❤</span>
+<span class="icon-text">Wishlist</span>
+</div>
+
+<div class="icon-box">
+<span class="icon">👤</span>
+<span class="icon-text">Account</span>
+</div>
+</div>
+</div>
+</header> -->
+
+<header class="header">
+  <div class="nav">
+
+    <!-- Logo -->
+    <div class="logo">
+      <img src="logo.jpg" alt="Smart Electronics Logo"> Smart Electronics
+    </div>
+
+    <!-- Hamburger for mobile -->
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <!-- Menu Items -->
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Our Showrooms</a></li>
+      <li><a href="#">About Us</a></li>
+      <!-- <li><a href="#">Our Leadership</a></li> -->
+      <li><a href="#">Our Top Suppliers</a></li>
+      <li><a href="#">Products</a></li>
+      <!-- <li><a href="#">Join Us</a></li> -->
+      <li><a href="#">News & Events</a></li>
+      <!-- <li><a href="#">Blogs</a></li> -->
+    </ul>
+
+    <!-- Right Icons + Search -->
+    <div class="nav-right">
+      <input type="text" placeholder="Search products">
+
+      <div class="icon-box">
+        <span class="icon">🛒</span>
+        <span class="icon-text">Cart</span>
+      </div>
+
+      <div class="icon-box">
+        <span class="icon">❤</span>
+        <span class="icon-text">Wishlist</span>
+      </div>
+
+      <div class="icon-box">
+        <span class="icon">👤</span>
+        <span class="icon-text">Account</span>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<!-- Overlay for mobile menu -->
+<div class="overlay" onclick="closeMenu()"></div>
+
+<script>
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu');
+const navRight = document.querySelector('.nav-right');
+const overlay = document.querySelector('.overlay');
+
+function toggleMenu(){
+  menu.classList.toggle('show');
+  navRight.classList.toggle('show');
+  overlay.classList.toggle('show');
+}
+
+function closeMenu(){
+  menu.classList.remove('show');
+  navRight.classList.remove('show');
+  overlay.classList.remove('show');
+}
+</script>
+
+<div class="slider">
+
+<img src="img1.jpg">
+<img src="img2.jfif">
+<img src="img3.jpg">
+<!-- <img src="img4.jpg"> -->
+<img src="img5.webp">
+
+</div>
+
+
+<div class="categories">
+
+<div class="category">
+<img src="LED.webp">
+<p>LED</p>
+</div>
+
+<div class="category">
+<img src="WASHING.webp">
+<p>Washing</p>
+</div>
+
+<div class="category">
+<img src="GYSER.avif">
+<p>Geyser</p>
+</div>
+
+<div class="category">
+<img src="appliances.webp">
+<p>Appliances</p>
+</div>
+
+<div class="category">
+<img src="bike.avif">
+<p>Bike</p>
+</div>
+
+<div class="category">
+<img src="EVEE.webp">
+<p>Scooty</p>
+</div>
+
+<div class="category">
+<img src="ac.webp">
+<p>A.C</p>
+</div>
+
+<div class="category">
+<img src="cooler.webp">
+<p>Air Cooler</p>
+</div>
+
+<div class="category">
+<img src="mobile.webp">
+<p>Mobiles</p>
+</div>
+
+<div class="category">
+<img src="Fridge.webp">
+<p>Fridge</p>
+</div>
+
+</div>
+<h2 class="featured-heading">Smart Electronics</h2>
+<div class="content">
+  <div class="video-slider">
+
+  <div class="video-card">
+    <video src="video1.mp4" autoplay muted loop></video>
+  </div>
+
+  <div class="video-card">
+    <video src="video2.mp4" autoplay muted loop></video>
+  </div>
+
+  <div class="video-card">
+    <video src="video3.mp4"  autoplay muted loop></video>
+  </div>
+
+  <div class="video-card">
+    <video src="video4.mp4" autoplay muted loop></video>
+  </div>
+
+  <div class="video-card">
+    <video src="video5.mp4" autoplay muted loop></video>
+  </div>
+
+  <div class="video-card">
+    <video src="video1.mp4" autoplay muted loop></video>
+  </div><div class="video-card">
+    <video src="video3.mp4" autoplay muted loop></video>
+  </div>
+  <div class="video-card">
+    <video src="video5.mp4" autoplay muted loop></video>
+  </div>
+
+</div>
+</div>
+
+<div class="segments-container">
+
+  
+  <div class="segment">
+    <h3>SEGMENTS</h3>
+
+    <div class="segment-images">
+      <div class="segment-image">
+        <img src="installment.webp" alt="Installment">
+        <p>Installment</p>
+      </div>
+      <div class="segment-image">
+        <img src="cash.webp" alt="Cash">
+        <p>Cash</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="empower-section">
+
+  <!-- Left image -->
+  <div class="empower-image">
+    <img src="12-appliances.webp" alt="Empowering Families">
+  </div>
+
+  <!-- Right description -->
+  <div class="empower-text">
+    <p class="line1">Empowering Families Enhancing Everyday Life with Quality Products</p>
+    <p class="line2">Strengthening Family Bonds with Affordable Technology, A Trusted Partner in Every Celebration</p>
+    <p class="line3">Gifting Made Easy: With flexible payment options, families can surprise loved ones with meaningful gifts on special occasions.</p>
+  </div>
+
+</div>
+
+<h2 class="featured-heading">Season Collection</h2>
+<div class="products">
+
+  <div class="product-box">
+    <img src="fridge1.webp" alt="Fridge">
+    <h3>Fridge</h3>
+    <p>Haier fridge offers reliable cooling, energy efficiency, and durable performance with modern features.</p>
+  </div>
+
+  <div class="product-box">
+    <img src="ac1.webp" alt="Air Conditioner">
+    <h3>Air Conditioners</h3>
+    <p>Stay cool and comfortable all summer long with technologically latest technology and advanced features.</p>
+  </div>
+
+  <div class="product-box">
+    <img src="lcd1.webp" alt="TCL Android TV">
+    <h3>TCL Android TV</h3>
+    <p>TCL has announced the launch of its latest Quantum Dot LED (QLED) TV, the C725 Series in Pakistan.</p>
+  </div>
+
+</div>
+<div class="features">
+  <div class="feature">
+    <img src="fast.jpg" alt="Fast Delivery">
+    <h3>Fast Delivery</h3>
+    <p>Same day delivery within city</p>
+  </div>
+
+  <div class="feature">
+    <img src="money.png" alt="Money Guarantee">
+    <h3>Money Guarantee</h3>
+    <p>Within 3 days for an exchange.</p>
+  </div>
+
+  <div class="feature">
+    <img src="customer.jfif" alt="Online Support">
+    <h3>Online Support</h3>
+    <p>24 hours a day, 7 days a week</p>
+  </div>
+
+  <div class="feature">
+    <img src="flexible.jfif" alt="Flexible Payment">
+    <h3>Flexible Payment</h3>
+    <p>Cash on delivery</p>
+  </div>
+</div>
+
+ <div class="footer">  
+
+<div class="footer-section">
+<h3>Business Info</h3>
+<p>Business Name: Smart Electronics</p>
+<p>Business Address: 9/A-7,H Block Commerical Ground Floor Valencia Town Lahore.</p>
+<p>Business Email: info@smartelectronics.com</p>
+</div>
+
+<div class="footer-section">
+<h3>Quick Links</h3>
+<ul>
+<li>Home</li>
+<li>Our Showrooms</li>
+<li>About Us</li>
+<li>Our Leadership</li>
+<li>Our Top Suppliers</li>
+<li>Products</li>
+<li>Join Us</li>
+<li>News & Events</li>
+<li>Blogs</li>
+<li>Search</li>
+</ul>
+</div>
+
+<div class="footer-section">
+<h3>Information</h3>
+<ul>
+<li>Privacy Policy</li>
+<li>Terms of Service</li>
+<li>Contact Information</li>
+<li>Blog Posts Afzal Electronics</li>
+<li>Branches</li>
+<li>Flash Sale</li>
+</ul>
+</div>
+
+<div class="footer-section">
+<h3>Newsletter</h3>
+<p>Sign up for our newsletter</p>
+<p>Get new Discounts and Offers</p>
+
+<input type="email" placeholder="Enter your email">
+<button>Submit</button>
+
+</div>
+
+<div class="copyright">
+    <p>&copy; 2026 Smart Electronics</p>
+</div>
+
+
+</body>
+</html>
